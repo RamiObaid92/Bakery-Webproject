@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sött och Elegant Konditori">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sött och Elegant - Specialtårtor</title>
+</head>
+
+<body>
+    <!-- Top page content -->
+    <header>
+        <div class="flex-container">
+            <p class="öppettider">
+                <strong>
+                    <u>Öppettider</u>
+                </strong>
+                <br>
+                Mån-Fre: 10-19
+                <br>
+                Lör-Sön: 10-15
+            </p>
+            <!-- Hamburger toggler -->
+            <input class="toggler" type="checkbox" id="toggle">
+            <!-- Navbar -->
+            <nav>
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="Index.html">Hem</a></li>
+                    <li><a class="nav-link" href="Bageri.html">Bageri</a></li>
+                    <li><a class="nav-link" href="Tårtor.html">Tårtor</a></li>
+                    <li><a class="current" href="Specialtårtor.html">Specialtårtor</a></li>
+                    <li><a class="nav-link" href="Om-oss.html">Om oss</a></li>
+                    <li><a class="nav-link" href="Kontakt.html">Kontakta oss</a></li>
+                </ul>
+            </nav>
+            <!--Kontakt headerbar-->
+            <div class="kontakt-bar">
+                <a href="#">Carl Bondes Väg 82</a>
+                <a href="#">08-12345678</a>
+                <a href="#">Zob_91@hotmail.com</a>
+            </div>
+            <!-- Hamburger icon position -->
+            <label class="navbar-toggler" for="toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+        </div>
+    </header>
+    <!--Spacer for Main-Content-->
+    <div class="spacer">&nbsp;</div>
+    <!-- Main Page Content -->
+    <main>
+        <section class="shopping-heading">
+            <h1>Specialtårtor</h1>
+            <hr>
+            <p>En tårta för varje tillfälle, bröllop, födelsedagsfest, studentfest och andra högtida tillfällen. Nedan
+                kan ni se olika alternativ som våra kunder har beställt tidigare.</p>
+            <br>
+            <p>Hittar ni inte det som passar er? Beskriv <a href="#form-scroll">nedan</a>, vi bakar en tårta helt enligt
+                era önskemål, vi gör alltid det bästa för att göra tårtan till tillfällets höjdpunkt.</p>
+        </section>
+        <!-- Main page produkt content -->
+        <div class="flex-shopping-container">
+            <section class="shop-row1">
+                <div>
+                    <img src="Images/pexels-jeremy-wong-1038711.jpg" class="shopping-images"
+                        alt="Vit bröllopstårta med gula blommor och pärlor">
+                    <h4>Specialtårta #1</h4>
+                    <p>1100kr</p>
+                    <button type="button" class="myButton">Köp</button>
+                </div>
+                <div>
+                    <img src="Images/blue-1821389_1920.jpg" class="shopping-images"
+                        alt="Vit bröllopstårta med vita blommor">
+                    <h4>Specialtårta #2</h4>
+                    <p>1250kr</p>
+                    <button type="button" class="myButton">Köp</button>
+                </div>
+            </section>
+            <section class="shop-row2">
+                <div>
+                    <img src="Images/pexels-avonne-stalling-3923555.jpg" class="shopping-images"
+                        alt="Svart specialtårta med vita blommor">
+                    <h4>Specialtårta #3</h4>
+                    <p>950kr</p>
+                    <button type="button" class="myButton">Köp</button>
+                </div>
+                <div>
+                    <img src="Images/pexels-alicia-zinn-19640.jpg" class="shopping-images"
+                        alt="blå, vit specialtårta med vita rosor">
+                    <h4>Specialtårta #4</h4>
+                    <p>900kr</p>
+                    <button type="button" class="myButton">Köp</button>
+                </div>
+            </section>
+            <section class="shop-row3">
+                <div>
+                    <img src="Images/cake-1145609_1920.jpg" class="shopping-images"
+                        alt="Vit specialtårta med muffins och rosa blommor">
+                    <h4>Specialtårta #5</h4>
+                    <p>1050kr</p>
+                    <button type="button" class="myButton">Köp</button>
+                </div>
+                <div>
+                    <img src="Images/wedding-cake-851450_1920.jpg" class="shopping-images"
+                        alt="Vit layered specialtårta röda rosor">
+                    <h4>Specialtårta #6</h4>
+                    <p>900kr</p>
+                    <button type="button" class="myButton">Köp</button>
+                </div>
+            </section>
+        </div>
+        <!-- Order Form layered -->
+        <section class="form-section">
+            <div class="form-container" id="form-scroll">
+                <h2 class="form-title">Beställning</h2>
+                <hr>
+                <form>
+                    <div class="form-order">
+                        <div class="form-input">
+                            <label for="namn">För- och Efternamn</label>
+                            <input type="text" name="namn" id="namn" placeholder="Namn">
+                        </div>
+                        <div class="form-input">
+                            <label for="email">E-post</label>
+                            <input type="email" name="email" id="email" placeholder="E-postadress">
+                        </div>
+                        <div class="form-input">
+                            <label for="tele">Telefon</label>
+                            <input type="tel" name="tele" id="tele" placeholder="Telefonnummer">
+                        </div>
+                        <div class="form-input">
+                            <select name="select" id="select">
+                                <option value="Välj">Vilken Tårta önskar du?</option>
+                                <option value="Princess">Specialtårta #1</option>
+                                <option value="Chokladtårta">Specialtårta #2</option>
+                                <option value="Jordgubbstårta">Specialtårta #3</option>
+                                <option value="Marängtårta">Specialtårta #4</option>
+                                <option value="Citrontårta">Specialtårta #5</option>
+                                <option value="Gräddtårta">Specialtårta #6</option>
+                            </select>
+                        </div>
+                        <div class="form-input" id="form-date">
+                            <label for="date">Datum av avhämtning</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div class="form-input" id="form-time">
+                            <label for="time">Önskad Tid</label>
+                            <input type="time" name="time" id="time">
+                        </div>
+                        <p id="observera">Beställningar måste ske minst en vecka innan avhämtning.</p>
+                        <div class="form-input">
+                            <label for="meddelande">Meddelande</label>
+                            <textarea name="meddelande" id="meddelande" cols="25" rows="5"
+                                placeholder="Övriga Önskemål"></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Skicka">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <img src="Images/cupcake-4064405_1920.png" alt="Cupcake logo" style="width: 12rem; height: 12rem">
+            <div class="footer-kontakt">
+                <h3><a href="Kontakt.html">Kontakt</a></h3>
+                <br>
+                <p><a href="#">Zob_91@hotmail.com</a></p>
+                <p><a href="#"> 08-12345678</a></p>
+                <br>
+            </div>
+            <div class="footer-adress">
+                <h3>Address</h3>
+                <br>
+                <h4>Sött och Elegant</h4>
+                <p>Carl Bondes Väg 82</p>
+                <p>Stockholm 165 74</p>
+            </div>
+            <div class="Footer-tider">
+                <h3>Öppettider</h3>
+                <br>
+                <p>Måndag-Fredag: 10-19</p>
+                <p>Lördag-Söndag: 10-15</p>
+            </div>
+            <div class="socials">
+                <h3>Socials</h3>
+                <br>
+                <div class="logos">
+                    <div class="twitter">
+                        <a href="#"><img src="Images/2021-Twitter-logo-black.png" alt="Twitter logo" style="width: 2.4rem; height: 2.4rem" id="twitter"></a>
+                    </div>
+                    <div class="instagram">
+                        <a href="#"><img src="Images/instagram-logo.png" alt="Instagram logo" style="width: 2.4rem; height: 2.4rem" id="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
